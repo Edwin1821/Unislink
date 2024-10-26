@@ -1,0 +1,1433 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --fontsize:30px;
+    --width:70px;
+
+}
+
+.rightmenu {
+    background-color: rgb(248, 69, 69);
+    display: flex;
+    justify-content: right;
+    height: 55px;
+    margin-right: 0;
+    ul {
+        list-style-type: none;
+        display: flex;
+        margin-right: 120px;
+        align-items: center;  
+        li {
+            display: inline-block;
+            margin-right: 0;
+            padding-right: 30px;
+            color: white;
+            font-weight: 400;
+            :last-child {
+                margin-right: 0;
+                align-items: center;
+            }
+            a{
+                color: #fff;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+
+            }
+        }      
+    }
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    margin: 0 auto;
+    height: 85px;
+    .logo {
+        margin-left: 150px;
+        img{
+            width: 200px;
+        }
+    }
+    
+}
+
+.menuicon-mobile{
+    display: flex;
+
+}    
+
+.navbar .rightnavbar {
+    display: flex;
+    right: 0;
+    margin-top: 0;
+    
+    
+    
+}
+li,a{
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 30px;
+    justify-content: center;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+.bgimage {
+
+    background-image: url('hero-bg.png');
+    width: 100%;
+    height: 1090px; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+
+}
+.container {
+    margin-top: 0;
+    width: 98.25rem;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+
+}
+.heading {
+    margin-top: 160px;
+    
+    h3{
+        font-size: 48px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #fff;
+        line-height: 60px;
+        margin-bottom: 45px;
+        letter-spacing: 0.3px;
+        
+
+    }
+    h4{
+        font-size: 30px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #fff;
+        line-height: 50px;
+        margin-bottom: 70px;
+        letter-spacing: 1px;
+    }
+    }
+    button{
+        padding: 20px 25px;
+        background-color: rgb(228, 60, 60);
+        outline: none;
+        border: none;
+        border-radius: 3px;
+       
+
+        a{
+            color: #fff;
+            font-size: 20px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: center;
+        }
+        
+    }
+.maincontent {
+    width: 1557px;
+    margin: 0 auto;
+    .content {
+
+        h4{
+            font-size: 50px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            margin-bottom: 40px;
+        }
+        h5{
+            font-size: 20px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 350;
+            font-style: normal;
+            width: 750px;
+            line-height: 30px;
+            text-align: justify;
+
+            span{
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+
+            }
+
+        }
+
+    }
+}
+
+.contentimg {
+    width: 1507px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    align-items: center;
+    
+    
+    .image1{
+        flex-basis: 50%;
+        text-align: center;
+        
+        
+
+        img{
+            width: 70px;
+            margin-bottom: 10px;
+            
+        }
+        h4{
+            font-size: 30px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: rgb(39, 141, 209);
+            margin-bottom: 10px;
+        }
+        h5{
+            font-size: 18px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 30px;
+            width: 600px;
+            padding-left: 80px;
+            margin-left: 20px;
+
+        }
+    }
+    .image2{
+        flex-basis: 50%;
+        text-align: center;
+
+        img{
+            width: 70px;
+            margin-bottom: 10px;
+        }
+        h4{
+            font-size: 30px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: rgb(39, 141, 209);
+            margin-bottom: 10px;
+        }
+        h5{
+            font-size: 18px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            width: 600px;
+            line-height: 30px;
+            padding-left: 80px;
+            margin-left: 20px;
+        }
+    }
+    }
+    .image3{
+        flex-basis: 50%;
+        text-align: center;
+        margin-top: 80px;
+
+        img{
+            width: 70px;
+            margin-bottom: 10px;
+            margin-right: 21px;
+        }
+        h4{
+            font-size: 30px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: rgb(39, 141, 209);
+            margin-bottom: 10px;
+        }
+        h5{
+            font-size: 18px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            width: 580px;
+            line-height: 30px;
+            padding-left: 80px;
+            margin-left: 30px;
+        }
+    }
+    
+    .image4{
+        flex-basis: 50%;
+        text-align: center;
+        margin-top: 80px;
+        
+
+        img{
+            width: 70px;
+            margin-bottom: 10px;
+        }
+        h4{
+            font-size: 30px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: rgb(39, 141, 209);
+            margin-bottom: 10px;
+        }
+        h5{
+            font-size: 18px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            width: 600px;
+            line-height: 30px;
+            padding-left: 80px;
+            margin-left: 20px;
+            
+        }
+    }
+.paracontent{
+    display: flex;
+    width: 98.25rem;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-top: 9.375rem;
+    /* border: 2px solid red; */
+
+    .leftcontent{
+        flex-basis: 50%;
+        h5{
+            font-size: 18px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 2rem;
+            width: 610px;
+            text-align: justify;
+        }
+        button{
+            margin: 15px 0;
+            background-color: transparent;
+            padding: 0;
+
+            a{
+                color: red;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 20px;
+                position: relative;
+
+                span{
+                    position: absolute;
+                    align-items: center;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    .rightcontent{
+        display: flex;
+        flex-basis: 50%;
+        
+
+        img{
+            padding-left: 150px;
+        }
+    }
+}
+.contentsession2 {
+    margin-top: 85px;
+    .whoweserve {
+        h4{
+            font-size: 50px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            margin: 40px 0 40px 750px;  
+            top: 10px;
+        }
+        p {
+            font-size: 25px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+            line-height: 30px;
+            text-align: center;
+            margin: 0 220px;
+            margin-bottom: 50px
+        }
+        h5{
+            font-size: 25px;
+            font-family: "Roboto", sans-serif;
+            text-align: center;
+            margin-right: 50px;
+            margin-bottom: 40px;
+            font-weight: 500;
+        }        
+    }
+    .bottomcontentsess2 {
+        display: inline-block;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        .healthcaresystems {
+            flex-basis: 30%;
+            img {
+                width: 100px;
+                top: 0;
+            }
+            h5 {
+                font-size: 25px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            p {
+                font-size: 18px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                line-height: 2rem;
+                margin-right: 20px;
+                width: 430px;
+            }
+            button {
+                background-color: transparent;
+                text-align: center;
+                a {
+                    color: red;
+                    position: relative;
+                    span {
+                        position: absolute;
+                    }
+                }
+            }
+        }
+        .healthcareproviders {
+            flex-basis: 30%;
+            margin-left: 150px;
+            img {
+                width: 100px;
+            }
+            h5 {
+                font-size: 25px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            p {
+                font-size: 18px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                line-height: 2rem;
+                width: 430px;
+            }
+            button {
+                background-color: transparent;
+                text-align: center;
+                a {
+                    color: red;
+                    position: relative;
+                    span {
+                        position: absolute;
+                    }
+                }
+            }
+        }
+        .channel {
+            flex-basis: 30%;
+            img {
+                width: 100px;
+            }
+            h5 {
+                font-size: 25px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            p {
+                font-size: 18px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                line-height: 2rem;
+                width: 400px;
+            }
+            button {
+                background-color: transparent;
+                text-align: center;
+                a {
+                    color: red;
+                    position: relative;
+                    .material-symbols-outlined {
+                        position: absolute;
+                    }
+                }
+            }
+        }
+    }
+}
+.contentsession3 {
+    margin-top: 200px;
+    .ourprograms {
+        width: 1557px;
+        margin: 0 auto ;       
+        h4{
+            font-size: 50px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            margin-bottom: 40px;
+        }
+    .contentsess3p1 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 25px;
+        img {  
+            flex-basis: 35%;
+            height: 500px;
+            margin-left: 80px;
+            margin-top: 25px
+        }
+        .sess3p1subcontent {
+            flex-basis: 45%;
+            margin-top: 25px;
+            h3 {
+                font-size: 35px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 300;
+                font-style: normal;      
+                text-align: end;         
+            }
+            h4{
+                font-size: 18px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                line-height: 2.5rem;
+                margin-left: 180px;
+                margin-top: 30px;  
+            } 
+            h5 {
+                font-size: 20px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+                margin-left: 180px;     
+            } 
+            button{
+                padding: 20px 25px;
+                background-color: rgb(228, 60, 60);
+                outline: none;
+                border: none;
+                border-radius: 3px;
+                margin-left: 180px;
+                margin-top: 30px;
+                a{
+                    color: #fff;
+                    font-size: 20px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    text-align: center;
+                }
+            }  
+        }
+    }
+    .contentsess3p2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 70px;
+        .sess3p2subcontent {
+            flex-basis: 45%;
+            h3 {
+                font-size: 35px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 300;
+                font-style: normal;      
+                text-align: left;         
+            }
+            h4{
+                font-size: 18px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                line-height: 2.5rem;
+                margin-top: 30px;
+            }
+            h5 {
+                font-size: 20px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                font-style: normal;     
+            } 
+            button{
+                padding: 20px 25px;
+                background-color: rgb(228, 60, 60);
+                outline: none;
+                border: none;
+                border-radius: 3px;
+                margin-top: 30px;
+                a{
+                    color: #fff;
+                    font-size: 20px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    text-align: center;
+                }
+            }  
+        }
+        img {  
+            flex-basis: 35%;
+            height: 450px;
+            margin-left: 80px;
+            margin-top: 25px
+        }
+    }
+    }
+} 
+
+.contentsession4 {
+    margin-top: 200px;
+    .theedgeyouneed {
+        width: 1557px;
+        margin: 0 auto ;       
+        h4{
+            font-size: 50px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            margin-bottom: 40px;
+        }
+        p {
+            font-size: 25px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+            line-height: 45px;
+            text-align: left;
+            margin-right: 550px;
+        }
+    }
+    .contentsess4 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1557px;
+        margin: auto ;
+        justify-content: space-between;
+        .promotebetter {
+            flex-basis: 45%;
+            display: inline-block;
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 80px;
+            margin-top: 30px;
+            height: fit-content;
+            span {
+                color: #6d9af3;
+                font-size: 30px;
+                flex-basis: 10%;
+                margin-top: 4px;
+            }
+            .grp1 {
+                position: absolute;
+                flex-basis: 33%;
+                margin-left: 40px ;
+                h5 {
+                    font-size: 25px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 500;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                }
+                p {
+                    font-size: 18px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    line-height: 2rem;
+                    width: 620px;
+                }
+            }
+        }
+        .navigatevalue {
+            flex-basis: 50%;
+            display: inline-block;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            margin-bottom: 80px;
+            margin-top: 30px;
+            height: 60px;
+            span {
+                color: #6d9af3;
+                font-size: 30px ;
+                flex-basis: 10%;
+                margin-top: 4px;
+            }
+            .grp2 {
+                position: absolute;
+                flex-basis: 33%;
+                margin-left: 40px;
+                h5 {
+                    font-size: 25px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 500;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                }
+                p {
+                    font-size: 18px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    line-height: 2rem;
+                
+                }
+            }
+        }
+        .improvefinancial {
+            flex-basis: 45%;
+            display: inline-block;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            margin-bottom: 80px;
+            span {
+                color: #6d9af3;
+                font-size: 30px ;
+                flex-basis: 10%;
+                margin-top: 4px;
+            }
+            .grp3 {
+                position: absolute;
+                flex-basis: 33%;
+                margin-left: 40px ;
+                h5 {
+                    font-size: 25px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 500;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                }
+                p {
+                    font-size: 18px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    line-height: 2rem;
+                }
+            }
+        }
+        .managecore {
+            flex-basis: 50%;
+            display: inline-block;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            margin-bottom: 80px;
+            height: 60px;
+            span {
+                color: #6d9af3;
+                font-size: 30px ;
+                flex-basis: 10%;
+                margin-top: 4px;
+            }
+            .grp4 {
+                position: absolute;
+                flex-basis: 33%;
+                margin-left: 40px ;
+                h5 {
+                    font-size: 25px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 500;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                }
+                p {
+                    font-size: 18px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    line-height: 2rem;
+                }
+            }
+        }
+        .enablemeet {
+            flex-basis: 45%;
+            display: inline-block;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            margin-bottom: 80px;
+            span {
+                color: #6d9af3;
+                font-size: 30px ;
+                flex-basis: 10%;
+                margin-top: 4px;
+            }
+            .grp5 {
+                position: absolute;
+                flex-basis: 33%;
+                margin-left: 40px ;
+                h5 {
+                    font-size: 25px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 500;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                }
+                p {
+                    font-size: 18px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    line-height: 2rem;
+                }
+            }
+        }
+        .managecontracts {
+            flex-basis: 50%;
+            display: inline-block;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            margin-bottom: 80px;
+            height: 60px;
+            span {
+                color: #6d9af3;
+                font-size: 30px ;
+                flex-basis: 10%;
+                margin-top: 4px;
+            }
+            .grp6 {
+                position: absolute;
+                flex-basis: 33%;
+                margin-left: 40px ;
+                h5 {
+                    font-size: 25px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 500;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                }
+                p {
+                    font-size: 18px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    line-height: 2rem;
+                }
+            }
+        }
+        .promotepatient {
+            flex-basis: 45%;
+            display: inline-block;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            margin-bottom: 80px;
+            span {
+                color: #6d9af3;
+                font-size: 30px ;
+                flex-basis: 10%;
+                margin-top: 4px;
+            }
+            .grp7 {
+                position: absolute;
+                flex-basis: 33%;
+                margin-left: 40px ;
+                h5 {
+                    font-size: 25px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 500;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                }
+                p {
+                    font-size: 18px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    line-height: 2rem;
+                }
+            }
+        }
+        .effectivelymanage {
+            flex-basis: 50%;
+            display: inline-block;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            margin-bottom: 80px;
+            height: 60px;
+            span {
+                color: #6d9af3;
+                font-size: 30px ;
+                flex-basis: 10%;
+                margin-top: 4px;
+            }
+            .grp8 {
+                position: absolute;
+                flex-basis: 33%;
+                margin-left: 40px ;
+                h5 {
+                    font-size: 25px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 500;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                }
+                p {
+                    font-size: 18px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    line-height: 2rem;
+                }
+            }
+        }
+    }
+}
+
+.contentsession5 {
+    margin: 200px 0;
+    .likenothingelseoutthere {
+        width: 1557px;
+        margin: 0 auto ;       
+        h4{
+            font-size: 50px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    }
+    .contentsess5 {
+        width: 1557px;
+        margin: 0 auto ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .analytics {
+            flex-basis: 28%;
+            margin-top: 25px;
+            text-align: center;
+            margin-bottom: 25px;
+            img {
+                height: auto;
+                width: auto;
+            }
+            h5 {
+                font-size: 25px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                margin: 20px 0;
+                text-align: center;
+            }
+            p {
+                font-size: 18px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                line-height: 2rem;
+                text-align: center;
+            }
+        }
+        .workflowintegration {
+            flex-basis: 28%;
+            margin-top: 25px;
+            text-align: center;
+            margin-bottom: 25px;
+            img {
+                height: auto;
+                width: auto;
+            }    
+            h5 {
+                font-size: 25px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                margin: 20px 0;
+                text-align: center;
+            }
+            p {
+                font-size: 18px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                line-height: 2rem;
+                text-align: center;
+            }
+        }
+        .modularbuild {
+            flex-basis: 28%;
+            margin-top: 25px;
+            text-align: center;
+            margin-bottom: 25px;
+            img {
+                height: auto;
+                width: auto;
+            }    
+            h5 {
+                font-size: 25px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                margin: 20px 0;
+                text-align: center;
+            }
+            p {
+                font-size: 18px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                line-height: 2rem;
+                text-align: center;
+            }
+        }
+        .improvingrevenue {
+            flex-basis: 28%;
+            margin-top: 25px;
+            text-align: center;
+            margin-bottom: 25px;
+            img {
+                height: auto;
+                width: auto;
+            }    
+            h5 {
+                font-size: 25px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                margin: 20px 0;
+                text-align: center;
+            }
+            p {
+                font-size: 18px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                line-height: 2rem;
+                text-align: center;
+            }
+        }
+        .hightouch {
+            flex-basis: 28%;
+            margin-top: 25px;
+            text-align: center;
+            margin-bottom: 25px;
+            img {
+                height: auto;
+                width: auto;
+            }    
+            h5 {
+                font-size: 25px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                margin: 20px 0;
+                text-align: center;
+            }
+            p {
+                font-size: 18px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                line-height: 2rem;
+                text-align: center;
+            }
+        }
+        .overlayfunctionality {
+            flex-basis: 28%;
+            margin-top: 25px;
+            text-align: center;
+            margin-bottom: 25px;
+            img {
+                height: auto;
+                width: auto;
+            }    
+            h5 {
+                font-size: 25px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                margin: 20px 0;
+                text-align: center;
+            }
+            p {
+                font-size: 18px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                line-height: 2rem;
+                text-align: center;
+            }
+        }
+    }
+}  
+
+.contentsession6 {
+    width: 1557px;
+    margin: 30px auto ;
+    .makemodel {
+        h4{
+            font-size: 50px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            margin-bottom: 40px;
+            text-align: left;
+        }
+        p {
+            font-size: 25px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+            line-height: 45px;
+            text-align: left;
+            width: 1010px;
+        }
+        h5 {
+            font-size: 28px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            margin: 50px 0;
+            text-align: left;
+        }
+    }
+    .contentsess6 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .populationhealth {
+            flex-basis: 45%;
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+            height: 150px;
+            img {
+                width: 100px;
+                flex-basis: 10%;
+                height: 100px;
+            }
+            .sess6grp1 {
+                flex-basis: 82%;
+                margin-left: 20px;
+                h5 {
+                    font-size: 28px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 500;
+                    text-align: left;
+                    margin-bottom: 10px;
+                }
+                p {
+                    font-size: 18px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    line-height: 2rem;
+                    text-align: left;
+                } 
+            }
+               
+        }
+        .chroniccare {
+            flex-basis: 45%;
+            display: flex;
+            flex-wrap: wrap;
+            height: 150px;
+            img {
+                flex-basis: 10%;
+                width: 100px;
+                height: 100px;
+            }
+            .sess6grp2 {
+                flex-basis: 82%;
+                margin-left: 20px;
+                h5 {
+                    font-size: 28px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 500;
+                    text-align: left;
+                    margin-bottom: 10px;
+                }
+                p {
+                    font-size: 18px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    line-height: 2rem;
+                    text-align: left;
+                }
+            }        
+        }
+        .clinicalquality {
+            flex-basis: 45%;
+            display: flex;
+            flex-wrap: wrap;
+            height: 150px;
+            img {
+                flex-basis: 10%;
+                width: 100px;
+                height: 100px;
+            }
+            .sess6grp3 {
+                flex-basis: 82%;
+                margin-left: 20px;
+                h5 {
+                    font-size: 28px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 500;
+                    text-align: left;
+                    margin-bottom: 10px;
+                }
+                p {
+                    font-size: 18px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    line-height: 2rem;
+                    text-align: left;
+                }
+            }
+                
+        }
+        .financialanalytics {
+            flex-basis: 45%;
+            display: flex;
+            flex-wrap: wrap;
+            height: 150px;
+            img {
+                flex-basis: 10%;
+                height: 100px;
+                width: 100px;
+            }
+            .sess6grp4 {
+                flex-basis: 82%;
+                margin-left: 20px;
+                h5 {
+                    font-size: 28px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 500;
+                    text-align: left;
+                    margin-bottom: 10px;
+                }
+                p {
+                    font-size: 18px;
+                    font-family: "Roboto", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    line-height: 2rem;
+                    text-align: left;
+                }
+            }           
+        }
+    }
+}
+
+.contentsession7 {
+    width: 1557px;
+    margin: 250px auto ;
+    .thoughtcenter {
+        h4{
+            font-size: 50px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    }
+    .contentsess7 {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        .sess7grp1 {
+            flex-basis: 30%;
+            h5 {
+                font-size: 25px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                margin: 15px 0;
+            }
+            p {
+                font-size: 18px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                line-height: 2rem;
+                margin-bottom: 15px;
+            }
+            button {
+                background-color: transparent;
+                text-align: center;
+                a {
+                    color: red;
+                    position: relative;
+                    span {
+                        position: absolute;
+                    }
+                }
+            }
+        }
+        .sess7grp2 {
+            flex-basis: 30%;
+            h5 {
+                font-size: 25px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                margin: 15px 0;
+            }
+            p {
+                font-size: 18px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                line-height: 2rem;
+                margin-bottom: 15px;
+            }
+            button {
+                background-color: transparent;
+                text-align: center;
+                a {
+                    color: red;
+                    position: relative;
+                    span {
+                        position: absolute;
+                    }
+                }
+            }
+        }
+        .sess7grp3 {
+            flex-basis: 30%;
+            h5 {
+                font-size: 25px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 500;
+                margin: 15px 0;
+            }
+            p {
+                font-size: 18px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                line-height: 2rem;
+                margin-bottom: 15px;
+            }
+            button {
+                background-color: transparent;
+                text-align: center;
+                a {
+                    color: red;
+                    position: relative;
+                    span {
+                        position: absolute;
+                    }
+                }
+            }
+        }
+    }
+    .contentsess7p1 {
+        text-align: center;
+        button{
+            padding: 20px 25px;
+            background-color: rgb(228, 60, 60);
+            outline: none;
+            border: none;
+            border-radius: 3px;
+            margin-top: 30px;
+            a{
+                color: #fff;
+                font-size: 20px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                text-align: center;
+            }
+        }  
+    }
+}        
+ @media all and (max-width:576px){
+    .rightmenu{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+        .logo{
+            margin-left: 0;
+            img{
+                width: 180px;
+                padding-left: 20px;
+            }
+        }
+        .menuicon-mobile{
+            padding-right: 20px;
+        }
+    }
+    .bgimage{
+        display: none;
+    }
+    .maincontent{
+        display: none;
+    }
+    .contentimg{
+        display: none;
+    }
+    .rightnavbar{
+        flex-basis: 100%;
+        margin-right: 0;
+        flex-direction: column;
+        li{
+            margin-right: 0;
+            padding: 15px 0;
+            border-bottom: 1px solid black;
+            a{
+                padding-left: 20px;
+            }
+        }
+            
+        
+        
+    
+    }
+ }   
+ @media all and (min-width:576px){
+    .menuicon-mobile{
+        display: none;
+    }
+    .navbar .rightnavbar{
+        margin-right: 150px;
+        li a{
+            margin-right: 0;
+        
+        }
+    }
+    
+ }  
